@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+version = '0.1.0'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'EffectiveJavaMusings',
+                   'Implementation-Version': version
+    }
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+	testCompile("org.testng:testng:6.9.12")
+}
