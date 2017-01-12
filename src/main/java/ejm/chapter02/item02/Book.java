@@ -1,4 +1,4 @@
-package org.effectivejava.musings.chapter01.item02;
+package ejm.chapter02.item02;
 
 public class Book {
 

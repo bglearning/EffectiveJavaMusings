@@ -1,4 +1,4 @@
-package org.effectivejava.musings.chapter02.item01;
+package ejm.chapter02.item01;
 
 public class Person {
 
