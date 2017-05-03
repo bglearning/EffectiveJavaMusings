@@ -1,7 +1,6 @@
 package ejm.chapter04.item16;
 
 import java.util.Set;
-import java.util.HashSet;
 import java.util.Collection;
 
 public class InstrumentedSet<E> extends ForwardingSet<E> {

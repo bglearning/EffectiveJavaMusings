@@ -5,7 +5,9 @@ import java.util.Collection;
 
 public class ProblematicInstrumentedHashSet<E> extends HashSet<E> {
 
-    private int addCount = 0;
+	private static final long serialVersionUID = 2815854473762949489L;
+
+	private int addCount = 0;
     
     public ProblematicInstrumentedHashSet() {
     }
