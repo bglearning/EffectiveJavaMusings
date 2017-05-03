@@ -1,4 +1,4 @@
-package ejm.package02.item07;
+package ejm.chapter02.item07;
 
 // Finalizers are unpredictable, often dangerous, and generally unnecessary.
 
